@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-16T10:37:09.942Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20589000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.setUpTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Automate End to End Buy Order functionality",
+        "description": "",
+        "id": "place-an-order-in-techlistic;automate-end-to-end-buy-order-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1320000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2284000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Techlistic Login page",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_techlistic_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5112000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on sign in providing Username and Password",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_clicks_on_sign_in_providing_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3902000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on T-Shirts submenu under Womens menu",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_clicks_on_t_shirts_submenu_under_womens_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on T-Shirts list page",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_t_shirts_list_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3113000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on More button on 1st T-Shirt",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_clicks_on_more_button_on_1st_t_shirt()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on customize product page",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_customize_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4236000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User adds T-Shirt by customizing and clicks on checkout",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_adds_t_shirt_by_customizing_and_clicks_on_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Checkout page",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11934000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Checkout the T-Shirt by confirming",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_checkout_the_t_shirt_by_confirming()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should see Order Confirmation message",
+            "match": {
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_should_see_order_confirmation_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Place an Order in Techlistic",
+    "description": "",
+    "id": "place-an-order-in-techlistic",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/PlaceAnOrder.feature",
+    "tags": []
+  }
+]
