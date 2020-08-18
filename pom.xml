@@ -52,7 +52,7 @@
 		<dependency>
 			<groupId>net.masterthought</groupId>
 			<artifactId>cucumber-reporting</artifactId>
-			<version>5.3.0</version>
+			<version>5.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -131,6 +131,36 @@
 					<artifactId>maven-project-info-reports-plugin</artifactId>
 					<version>3.0.0</version>
 				</plugin>
+				<plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>5.3.0</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>Techlistic BDD</projectName>
+                            <skip>false</skip>
+                            <outputDirectory>${project.build.directory}/target/cucumber-reports</outputDirectory>
+                            <cucumberOutput>${project.build.directory}/json_output/cucumber.json</cucumberOutput>
+                            <buildNumber>1</buildNumber>
+                            <inputDirectory>${project.build.directory}/json_output</inputDirectory>
+                            <jsonFiles>
+                                <param>**/*.json</param>
+                            </jsonFiles>
+                            <classificationDirectory>${project.build.directory}/target/cucumber-reports</classificationDirectory>
+                            <parallelTesting>false</parallelTesting>
+                            <mergeFeaturesById>false</mergeFeaturesById>
+                            <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+                            <checkBuildResult>false</checkBuildResult>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
 			</plugins>
 		</pluginManagement>
 	</build>

@@ -30,12 +30,20 @@ public class MyAccountPage extends BasePage{
 		return getPageTitle();
 	}
 	
-	public ProductsListPageTShirts clickOnWomensTshirts() {
+	public void mouseHoverOnWomenMenu() {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(menuWomen)).build().perform();
+	}
+	
+	public void clickOnWomenTShirtsSubMenu() {
 		waitForWebElementVisibility(womenTshirtsSubMenu);
 		getWebElement(womenTshirtsSubMenu).click();
 		driver.manage().timeouts().pageLoadTimeout(Utility.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+	}
+	
+	public ProductsListPageTShirts clickOnWomensTshirts() {
+		mouseHoverOnWomenMenu();
+		clickOnWomenTShirtsSubMenu();
 		
 		return getInstance(ProductsListPageTShirts.class);
 	}

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-16T10:37:09.942Z",
+        "start_timestamp": "2020-08-18T10:25:23.922Z",
         "before": [
           {
             "result": {
-              "duration": 20589000000,
+              "duration": 49113000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1320000000,
+              "duration": 7372000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2284000000,
+              "duration": 3380000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 5112000000,
+              "duration": 10262000000,
               "status": "passed"
             },
             "line": 6,
@@ -59,19 +59,19 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "User is on Homepage",
+            "name": "the Homepage is displayed",
             "match": {
-              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_homepage()"
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.the_homepage_is_displayed()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3902000000,
+              "duration": 5989000000,
               "status": "passed"
             },
             "line": 8,
@@ -83,19 +83,19 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "User is on T-Shirts list page",
+            "name": "the T-Shirts list page is displayed",
             "match": {
-              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_t_shirts_list_page()"
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.the_t_shirts_list_page_is_displayed()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3113000000,
+              "duration": 4001000000,
               "status": "passed"
             },
             "line": 10,
@@ -107,19 +107,19 @@
           },
           {
             "result": {
-              "duration": 19000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "User is on customize product page",
+            "name": "the customize product page is displayed",
             "match": {
-              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_customize_product_page()"
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.the_customize_product_page_is_displayed()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4236000000,
+              "duration": 4664000000,
               "status": "passed"
             },
             "line": 12,
@@ -131,19 +131,19 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 13,
-            "name": "User is on Checkout page",
+            "name": "the Checkout page is displayed",
             "match": {
-              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_is_on_checkout_page()"
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.the_checkout_page_is_displayed()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 11934000000,
+              "duration": 8572000000,
               "status": "passed"
             },
             "line": 14,
@@ -155,13 +155,13 @@
           },
           {
             "result": {
-              "duration": 212000000,
+              "duration": 496000000,
               "status": "passed"
             },
             "line": 15,
-            "name": "user should see Order Confirmation message",
+            "name": "the order Confirmation message is displayed",
             "match": {
-              "location": "stepDefinitions.PlaceAnOrderStepDefinition.user_should_see_order_confirmation_message()"
+              "location": "stepDefinitions.PlaceAnOrderStepDefinition.the_order_confirmation_message_is_displayed()"
             },
             "keyword": "Then "
           }
